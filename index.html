@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Interactive pricing component</title>
+  </head>
+  <body>
+    <div class="top-container">
+      <img src="./images/pattern-circles.svg" style="margin-top: 10px" />
+      <div class="content">
+        <div class="title">Simple, traffic-based pricing</div>
+        <div class="subtitle">
+          Sign-up for our 30-day trial. No credit card required.
+        </div>
+      </div>
+      <div class="container">
+        <div class="top-content">
+          <div class="item">100k Pageviews</div>
+          <div class="price"><span class="pricenb">$16.00</span>/month</div>
+        </div>
+        <div class="range">
+          <input type="range" class="cusrange" value="16" max="35" />
+        </div>
+        <div class="period">
+          <div class="monthly">Monthly Billing</div>
+          <div class="toggle">
+            <div class="toggler"></div>
+          </div>
+          <div class="yearly">Yearly Billing</div>
+          <div class="discount">25% discount</div>
+        </div>
+        <div class="footer">
+          <div class="list">
+            <ul>
+              <li>Unlimited websites</li>
+              <li>100% data ownership</li>
+              <li>Email reports</li>
+            </ul>
+            <div class="btn">Start my trial</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
